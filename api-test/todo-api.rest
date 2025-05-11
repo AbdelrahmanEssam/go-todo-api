@@ -3,10 +3,25 @@
 # Accept: application/json
 
 ### Create a new todo
-POST http://localhost:8080/todos
-Content-Type: application/json
+# POST http://localhost:8080/todos
+# Content-Type: application/json
 
-{
-    "title": "Learn Go",
-    "done": false
-}
+# {
+#     "title": "Learn Go",
+#     "done": false
+# }
+
+
+### Create a new todo
+
+# POST http://localhost:8080/todos
+# Content-Type: application/json
+
+# {
+#     "title": "Learn AI",
+#     "done": true
+# }
+
+## Get all todos 
+GET http://localhost:8080/todos
+Accept: application/json
